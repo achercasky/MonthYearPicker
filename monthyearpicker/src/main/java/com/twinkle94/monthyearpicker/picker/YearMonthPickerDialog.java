@@ -34,13 +34,7 @@ public class YearMonthPickerDialog implements Dialog.OnClickListener {
     /**
      * Array of months.
      */
-    private static final String[] MONTHS_LIST = new String[]
-            {
-                    "January", "February", "March",
-                    "April", "May", "June", "July",
-                    "August", "September", "October",
-                    "November", "December"
-            };
+    private static String[] MONTHS_LIST = null;
 
     /**
      * Listener for user's date picking.
@@ -116,6 +110,8 @@ public class YearMonthPickerDialog implements Dialog.OnClickListener {
         mOnDateSetListener = onDateSetListener;
         mTheme = theme;
         mTextTitleColor = titleTextColor;
+
+        MONTHS_LIST = context.getResources().getStringArray(R.array.months);
 
         //Builds the dialog using listed parameters.
         build();

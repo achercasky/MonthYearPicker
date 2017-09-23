@@ -1,5 +1,5 @@
 # MonthYearPicker
-Fancy year and month picker library for your android app with the months on english or spanish.
+Fancy year and month picker library for your android app with the months in english or spanish.
 
 ## How to use?
 

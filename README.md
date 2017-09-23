@@ -1,23 +1,13 @@
 # MonthYearPicker
-Fancy year and month picker library for your android app
+Fancy year and month picker library for your android app with the months on english or spanish.
 
 ## How to use?
-### Maven
-
-```Maven
-<dependency>
-  <groupId>com.github.twinkle942910</groupId>
-  <artifactId>monthyearpicker</artifactId>
-  <version>0.0.1</version>
-  <type>aar</type>
-</dependency>
-```
 
 ### Gradle
 
 ```Gradle
 dependencies {
-    compile 'com.github.twinkle942910:monthyearpicker:0.0.1'
+    compile 'com.github.achercasky:MonthYearPicker:0.0.2''
 }
 ```
 
